@@ -1,0 +1,1 @@
+$(document).ready(function(){$('.sidenav').sidenav(); $('.sidenav-close').click(function (e){$('.sidenav').sidenav('close');}); $('.collapsible').collapsible(); $('.modal').modal(); $('.carousel').carousel(); $('.carousel.carousel-slider').carousel({indicators: false, duration:300,}); setInterval(()=>{$('.carousel').carousel('next',1);}, 3000);});
